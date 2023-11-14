@@ -32,7 +32,10 @@ function Footer() {
       </div>
       <div className="footer-copyright">
         <hr />
-        <p>Copyright @ 2023 - All Right Reserved</p>
+        <p>
+          Copyright @ <span>2023</span> - All Right Reserved - Developed by:
+          <span> Ricardo Alvarado Q</span>
+        </p>
       </div>
     </div>
   );
