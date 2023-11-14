@@ -1,4 +1,4 @@
-import Navbar from "./Components/Navbar/Navbar.jsX";
+import Navbar from "./Components/Navbar/Navbar.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Shop from "./Pages/shop";
 import ShopCategory from "./Pages/ShopCategory";
