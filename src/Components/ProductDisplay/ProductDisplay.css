@@ -1,3 +1,5 @@
+@import "src/assets/Styles/Variables.css";
+
 .productdisplay {
   display: flex;
   margin: 0px 168px;
@@ -50,7 +52,7 @@
   text-decoration: line-through;
 }
 .productdisplay-right-price-new {
-  color: #ff4141;
+  color: var(--primary-color);
 }
 .productdisplay-right-size h1 {
   margin-top: 55px;
@@ -76,7 +78,7 @@
   font-size: 16px;
   font-weight: 600;
   color: white;
-  background: #ff4141;
+  background: var(--primary-color);
   margin-bottom: 40px;
   border: none;
   outline: none;

@@ -1,7 +1,9 @@
+@import "src/assets/Styles/Variables.css";
+
 .loginsignup {
   width: 100%;
   height: 80vh;
-  background: #fce3fe;
+  background: var(--background-color);
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -35,7 +37,7 @@
   width: 580px;
   height: 72px;
   color: white;
-  background: #ff4141;
+  background: var(--primary-color);
   margin-top: 30px;
   border: none;
   font-size: 24px;
@@ -51,7 +53,7 @@
 }
 
 .loginsingup-login span {
-  color: #ff4141;
+  color: var(--primary-color);
   font-weight: 600;
 }
 

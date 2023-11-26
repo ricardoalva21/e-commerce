@@ -1,3 +1,5 @@
+@import "src/assets/Styles/Variables.css";
+
 .offers {
   width: 65%;
   height: 60vh;
@@ -5,7 +7,7 @@
   margin: auto;
   padding: 0px 140px;
   margin-bottom: 150px;
-  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+  background: linear-gradient(180deg, var(--banner-color) 0%, #e1ffea22 60%);
 }
 
 .offers-left {
@@ -28,7 +30,7 @@
 .offers-left button {
   width: 282px;
   height: 70px;
-  background: #ff4141;
+  background: var(--primary-color);
   border-radius: 35px;
   border: none;
   color: white;
